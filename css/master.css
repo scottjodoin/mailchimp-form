@@ -1,0 +1,142 @@
+* { box-sizing: border-box }
+
+body, main, footer {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #241c15;
+  font-family: "Graphik Web","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+  padding: 4px;
+  font-size: 15px;
+}
+
+.logo {
+  margin: 36px 0px 12px 0px;
+}
+
+a {
+  color: #007c89;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: "Cooper Light", Georgia, Times, "Times New Roman", serif;
+  font-size: 3rem;
+  font-weight: bold;
+  word-spacing: -0.2rem;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+h6 {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 22px;
+  font-size: 14px;
+}
+form {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+label {
+  display: block;
+  font-weight: 550;
+  padding-bottom: 12px;
+  user-select: none;
+}
+
+input {
+  background-color: white;
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+}
+
+input[type="email"],
+input[type="username"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  display: block;
+  min-height: 46px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+label[for="password"]{
+  width: 100%;
+  display:flex;
+  justify-content:space-between;
+  padding-bottom: 0px;
+}
+
+input[type="submit"] {
+  color: lightgrey;
+}
+.password-show {
+  color: #007c89;
+  cursor: pointer;
+}
+
+.password-show::before{
+  content: "👁";
+  font-size: 20px;
+  line-height: 16px;
+  margin-right: 10px;
+}
+
+label[for="newsletter"]{
+  position: absolute;
+  left: 48px;
+  font-weight: 400;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-left: 0px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.requirements{
+  display: flex;
+}
+li::before {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #007c89;
+  content: "";
+  margin-right: 12px;
+  margin-bottom: 2px;
+}
+li {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 20px;
+}
+ul {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 12px;
+  color: darkgrey;
+  margin-bottom: 14px;
+}
